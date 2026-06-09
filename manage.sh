@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 export ORGANIZATION="penpotapp";
+export ORGANIZATION_ALT="penpotapp";
 export DEVENV_IMGNAME="$ORGANIZATION/devenv";
 export DEVENV_NETWORK="penpot_shared";
 export DEVENV_DEFAULTS_FILE="docker/devenv/defaults.env";
