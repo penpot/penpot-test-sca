@@ -13,8 +13,7 @@ jobs:
       id-token: write
 
     env:
-      AWS_REGION: $AWS_REGION
-      ACCOUNT_ID: $ACCOUNT_ID
+      DOKER_REGISTRY: ${{ secrets.DOCKER_REGISTRY }}
 
     steps:
       - name: Checkout
@@ -33,7 +32,7 @@ jobs:
         with:
           command: cves
           images: |
-            ${{ env.ACCOUNT_ID }}.dkr.ecr.${{ env.AWS_REGION }}.amazonaws.com/backend:develop
+            ${{ env.DOCKER_REGISTRY }}/backend:develop
           format: json
           output: scout-report.json
 
