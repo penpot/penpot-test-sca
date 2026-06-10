@@ -24,7 +24,7 @@
     "jsdom": "^27.4.0",
     "canvas": "^3.2.1",
     "playwright": "^1.45.1",
-    "prettier": "^3.7.4",
+    "prettier": "^3.8.4",
     "vite": "^5.3.1",
     "vitest": "^1.6.0"
   },

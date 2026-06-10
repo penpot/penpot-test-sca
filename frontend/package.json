@@ -95,7 +95,7 @@
     "postcss-clean": "^1.2.2",
     "postcss-modules": "^6.0.1",
     "postcss-scss": "^4.0.9",
-    "prettier": "3.8.1",
+    "prettier": "3.8.4",
     "pretty-time": "^1.1.0",
     "prop-types": "^15.8.1",
     "randomcolor": "^0.6.2",
