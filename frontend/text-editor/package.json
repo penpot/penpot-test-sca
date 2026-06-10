@@ -17,7 +17,7 @@
   "devDependencies": {
     "@playwright/test": "^1.45.1",
     "@types/node": "^25.0.3",
-    "@vitest/browser": "^1.6.0",
+    "@vitest/browser": "^4.1.8",
     "@vitest/coverage-v8": "^1.6.0",
     "@vitest/ui": "^1.6.0",
     "esbuild": "^0.27.2",
