@@ -4,4 +4,4 @@ updates:
   - package-ecosystem: "npm"
     directory: "/frontend"
     schedule:
-      interval: "hourly"
+      interval: "daily"
